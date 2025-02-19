@@ -1,0 +1,6 @@
+services:
+  - type: static  
+    name: myportfolio  
+    env: static  
+    buildCommand: ""  # No build command for plain HTML/CSS  
+    staticPublishPath: .  # Root directory  
